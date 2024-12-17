@@ -11,8 +11,6 @@ name: Java CI with Maven for stage
 on:
   push:
     branches: [ "stage" ]
-  pull_request:
-    branches: [ "stage" ]
   workflow_dispatch:
 
 jobs:
